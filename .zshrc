@@ -38,5 +38,4 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # CUSTOM
 ## Aliases
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc
-alias config='/usr/bin/git --git-dir=/home/pt/.cfg/ --work-tree=/home/pt'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
