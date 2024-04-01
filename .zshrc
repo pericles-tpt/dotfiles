@@ -1,5 +1,4 @@
 # Set up the prompt
-
 autoload -Uz promptinit
 promptinit
 prompt adam1
@@ -39,3 +38,13 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # CUSTOM
 ## Aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# Go Config
+export GOPATH="$HOME/Documents/Code/Personal/go"
+export GOROOT="/usr/lib/golang/"
+export GOPRIVATE="github.com/pericles-tpt/"
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$GOROOT/bin"
+
+# PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+# PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/opt/homebrew/opt/pkgconfig
