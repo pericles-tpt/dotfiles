@@ -1,3 +1,5 @@
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"
+
 # Set up the prompt
 autoload -Uz promptinit
 promptinit
