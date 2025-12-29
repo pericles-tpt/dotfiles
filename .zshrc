@@ -42,8 +42,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Go Config
-export GOPATH="$HOME/Documents/Code/Personal/go"
-export GOROOT="/usr/lib/golang/"
+export GOPATH="$HOME/Code/go"
 export GOPRIVATE="github.com/pericles-tpt/"
 export PATH="$PATH:$GOPATH/bin"
 export PATH="$PATH:$GOROOT/bin"
